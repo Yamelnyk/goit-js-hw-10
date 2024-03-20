@@ -5,3 +5,58 @@
   |============================
 */
 @import url('./reset.css');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 360px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 200px;
+}
+
+form>label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input[name="delay"] {
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 15px;
+}
+
+fieldset {
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  border-radius: 4px;
+}
+
+input[name="state"] {
+  margin-top: 15px;
+}
+
+button {
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  outline: 0;
+  border: none;
+}

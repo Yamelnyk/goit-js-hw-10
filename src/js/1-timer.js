@@ -25,6 +25,8 @@ const options = {
       iziToast.show({
         title: '❌',
         message: 'Please choose a date in the future',
+        color: 'red',
+        position: 'topRight',
       });
 
       // window.alert('Please choose a date in the future');
